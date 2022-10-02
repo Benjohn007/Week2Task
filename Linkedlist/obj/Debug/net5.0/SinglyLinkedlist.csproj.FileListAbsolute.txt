@@ -1,0 +1,16 @@
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.csproj.AssemblyReference.cache
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.AssemblyInfoInputs.cache
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.AssemblyInfo.cs
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.csproj.CoreCompileInputs.cache
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\bin\Debug\net5.0\SinglyLinkedlist.exe
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\bin\Debug\net5.0\SinglyLinkedlist.deps.json
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\bin\Debug\net5.0\SinglyLinkedlist.runtimeconfig.json
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\bin\Debug\net5.0\SinglyLinkedlist.runtimeconfig.dev.json
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\bin\Debug\net5.0\SinglyLinkedlist.dll
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\bin\Debug\net5.0\SinglyLinkedlist.pdb
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.dll
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\refint\SinglyLinkedlist.dll
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.pdb
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\SinglyLinkedlist.genruntimeconfig.cache
+C:\Users\Decagon\source\repos\Linkedlist\Linkedlist\obj\Debug\net5.0\ref\SinglyLinkedlist.dll
