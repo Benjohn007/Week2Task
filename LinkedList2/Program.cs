@@ -6,7 +6,7 @@ namespace LinkedList2
     {
         static void Main(string[] args)
         {
-            LinkList<string> now = new LinkList<string>();
+            /*LinkList<string> now = new LinkList<string>();
 
 
             Node<string> ll2 = new Node<string>("three");
@@ -38,16 +38,24 @@ namespace LinkedList2
 
             Console.WriteLine("\nRemoving " + target.Data);
             now.RemoveFirst();
-            now.print();
-
-
-
-
-
-
-
+            now.print();*/
            
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
 
+            bool a = queue.isEmpty();
+            int b = queue.Size();
+            queue.Print();
+            Console.WriteLine(a);
+            Console.WriteLine(b);  
+            Console.WriteLine("\n");
+
+            int removeItem = queue.Dequeue();
+            Console.WriteLine(removeItem);
+            Console.WriteLine("\n");
+            queue.Print();
         }
     }
 }
