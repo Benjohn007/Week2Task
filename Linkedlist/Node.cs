@@ -4,38 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SinghlyLinkedList
+namespace LinkedList2
 {
-    public class Node
+    public class Node<T>
     {
 
-        class LinkedListNode
+        //create data
+        public T Data { get; set; }
+
+        //create link
+        public Node<T> Next { get; internal set; }
+
+        public Node(T data)
         {
-            private object data;
-            private Node next;
-
-
-            //create a constructor
-            public LinkedListNode(object data, Node next)
-            {
-                this.data = data;
-                this.next = next;
-            }
-
-            //create the properties
-            public object Data
-            {
-                get { return this.data; }
-                set { this.data = value; }
-            }
-
-            public Node Next
-            {
-                get { return this.next; }
-                set { this.next = value; }
-            }
+            this.Data = data;
         }
-        
-        
+
+
     }
 }

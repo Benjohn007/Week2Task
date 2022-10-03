@@ -1,17 +1,53 @@
-﻿using SinglyLinkedList;
-using System;
+﻿using System;
 
-namespace SinghlyLinkedList
+namespace LinkedList2
 {
     internal class Program
     {
-        public static void Main(string[] args)
+        static void Main(string[] args)
         {
-           LinkList now = new LinkList();
+            LinkList<string> now = new LinkList<string>();
 
-            Console.WriteLine("is empty " + now.Empty);
-            Console.WriteLine("Count == " + now.Count);
-            Console.ReadLine();
+
+            Node<string> ll2 = new Node<string>("three");
+            now.Addhead(ll2);
+
+            Node<string> ll1 = new Node<string>("two");
+            now.Addhead(ll1);
+
+            Node<string> ll = new Node<string>("one");
+            now.Addhead(ll);
+            Console.WriteLine("The current index is: " + now.Index("one"));
+
+
+            now.print();
+
+
+
+           //checking and removing item
+
+            Node<string> target = now.Check("one");
+           if (target != null)
+            {
+                Console.WriteLine("\n\nfound " + target.Data);
+            }
+            else
+            {
+                Console.WriteLine("Nothing here");
+            }
+
+            Console.WriteLine("\nRemoving " + target.Data);
+            now.RemoveFirst();
+            now.print();
+
+
+
+
+
+
+
+           
+
         }
     }
 }
