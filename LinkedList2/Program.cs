@@ -23,7 +23,6 @@ namespace LinkedList2
             now.print();
 
 
-
            //checking and removing item
 
             Node<string> target = now.Check("one");
@@ -39,23 +38,55 @@ namespace LinkedList2
             Console.WriteLine("\nRemoving " + target.Data);
             now.RemoveFirst();
             now.print();*/
+
+
+            //QUEUE
+
+            /* Queue<int> queue = new Queue<int>();
+             queue.Enqueue(1);
+             queue.Enqueue(2);
+             queue.Enqueue(3);
+
+             bool a = queue.isEmpty();
+             int b = queue.Size();
+             queue.Print();
+             Console.WriteLine(a);
+             Console.WriteLine(b);  
+             Console.WriteLine("\n");
+
+             int removeItem = queue.Dequeue();
+             Console.WriteLine(removeItem);
+             Console.WriteLine("\n");
+             queue.Print();*/
+
+
+
+            Stack<int> stack = new Stack<int>();
+            stack.Push(1);
+            stack.Push(3);
+            stack.Push(2);
+            stack.Push(4);
+
+            Console.WriteLine(stack.Size());
+            stack.Pop();
+            stack.Pop();
+            stack.empty();
+
+          
+
+            stack.Size();
+
+            int peekValue = stack.Peek();
+            Console.WriteLine(peekValue);
+
            
-            Queue<int> queue = new Queue<int>();
-            queue.Enqueue(1);
-            queue.Enqueue(2);
-            queue.Enqueue(3);
 
-            bool a = queue.isEmpty();
-            int b = queue.Size();
-            queue.Print();
-            Console.WriteLine(a);
-            Console.WriteLine(b);  
-            Console.WriteLine("\n");
+            Console.WriteLine(stack.Size());
 
-            int removeItem = queue.Dequeue();
-            Console.WriteLine(removeItem);
-            Console.WriteLine("\n");
-            queue.Print();
+            bool isEmpty = stack.IsEmpty();
+            Console.WriteLine(isEmpty);
+
+            stack.Display();
         }
     }
 }
